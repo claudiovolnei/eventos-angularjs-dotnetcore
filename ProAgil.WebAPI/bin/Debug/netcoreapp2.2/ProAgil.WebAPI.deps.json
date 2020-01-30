@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "9222955ee86988f3c18f58d3628d598d4ba3312a"
+    "signature": "2a5e49d3befad810350c79f27bc1c9c13137e1bc"
   },
   "compilationOptions": {
     "defines": [
@@ -22,8 +22,9 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "ProAgil.WebAPI/1.0.0": {
+      "ProAgil.WebApi/1.0.0": {
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "4.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.0",
@@ -32,10 +33,40 @@
           "ProAgil.Repository": "1.0.0"
         },
         "runtime": {
-          "ProAgil.WebAPI.dll": {}
+          "ProAgil.WebApi.dll": {}
         },
         "compile": {
-          "ProAgil.WebAPI.dll": {}
+          "ProAgil.WebApi.dll": {}
+        }
+      },
+      "AutoMapper/7.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/4.0.0": {
+        "dependencies": {
+          "AutoMapper": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.Data.Sqlite.Core/2.2.0": {
@@ -3411,10 +3442,24 @@
     }
   },
   "libraries": {
-    "ProAgil.WebAPI/1.0.0": {
+    "ProAgil.WebApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+aSJPxOhi03Il8jsOia46N9u627+Ub7fwFdrz5qT6LKdwbgfK+t3ZaKQ6yTi5uhudIDwQNOxNcMNk6L/WCpgng==",
+      "path": "automapper/7.0.0",
+      "hashPath": "automapper.7.0.0.nupkg.sha512"
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ovgV98XPxdeKlQvLK0Nb6K9OfEE1V2favLG7xpV0v6R6uI3JAGKk5WyIuCQLT5lZVkQQ9BqHCvgHwip6KCYzNA==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/4.0.0",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.4.0.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/2.2.0": {
       "type": "package",

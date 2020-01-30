@@ -29,8 +29,6 @@ namespace ProAgil.Repository.Migrations
 
                     b.Property<string>("Local");
 
-                    b.Property<string>("Lote");
-
                     b.Property<int>("QtdPessoas");
 
                     b.Property<string>("Telefone");
@@ -47,11 +45,11 @@ namespace ProAgil.Repository.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<DateTime?>("DataFim");
+
                     b.Property<DateTime?>("DataInicio");
 
                     b.Property<int>("EventoId");
-
-                    b.Property<DateTime?>("MyProperty");
 
                     b.Property<string>("Nome");
 

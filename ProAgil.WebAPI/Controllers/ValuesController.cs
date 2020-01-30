@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using ProAgil.Repository;
 using ProAgil.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace ProAgil.WebAPI.Controllers
 {

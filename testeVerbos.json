@@ -1,0 +1,39 @@
+{
+    "local": "Rio de Janeiro",
+    "dataEvento": "2019-02-01T00:00:00",
+    "tema": ".Net Core",
+    "qtdPessoas": 200,
+    "imagemURL": "img2.jpg",
+    "telefone": "1299828888",
+    "email": "angular@gmail.com.br",
+    "lotes": [
+	      {
+		      "Nome": "1º Lote",
+		      "Preco":50.5,
+		      "DataInicio": null,
+		      "DataFim": null,
+		      "quantidade":100
+	   
+        },
+        {
+          "nome": "2º Lote",
+		  "Preco":60.5,
+		  "DataInicio": null,
+		  "DataFim": null,
+		  "quantidade":150
+        }
+    ],
+    "redeSociais": [
+        {
+            "nome": "Facebook",
+            "imagemURL": "http://facebok.com/blablabla"
+        },
+        {
+            "nome": "Instagram",
+            "imagemURL": "http://instagram.com/blablabla"
+        }
+    ],
+    "palestranteEventos": [
+      
+    ]
+}

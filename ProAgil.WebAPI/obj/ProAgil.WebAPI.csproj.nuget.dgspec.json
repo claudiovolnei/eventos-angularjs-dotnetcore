@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {}
+    "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebApi.csproj": {}
   },
   "projects": {
     "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj": {
@@ -124,12 +124,12 @@
         }
       }
     },
-    "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj": {
+    "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
-        "projectName": "ProAgil.WebAPI",
-        "projectPath": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebApi.csproj",
+        "projectName": "ProAgil.WebApi",
+        "projectPath": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\ProAgil.WebApi.csproj",
         "packagesPath": "C:\\Users\\Claudio Volnei\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
@@ -170,6 +170,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",

@@ -17,3 +17,22 @@ C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp
 C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
 C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.WebAPI\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
 C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.WebAPI\obj\Debug\netcoreapp2.2\ProAgil.WebAPI.csproj.CopyComplete
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.WebApi.deps.json
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.WebApi.runtimeconfig.json
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.WebApi.runtimeconfig.dev.json
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.WebApi.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.WebApi.pdb
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.Domain.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.Repository.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.Domain.pdb
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\bin\Debug\netcoreapp2.2\ProAgil.Repository.pdb
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.csprojAssemblyReference.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.RazorAssemblyInfo.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.RazorAssemblyInfo.cs
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.AssemblyInfoInputs.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.AssemblyInfo.cs
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.csproj.CopyComplete
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.WebApi\obj\Debug\netcoreapp2.2\ProAgil.WebApi.pdb

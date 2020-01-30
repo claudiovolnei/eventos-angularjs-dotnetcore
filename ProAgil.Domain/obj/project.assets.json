@@ -187,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
       "projectName": "ProAgil.Domain",
-      "projectPath": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
+      "projectPath": "c:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\ProAgil.Domain.csproj",
       "packagesPath": "C:\\Users\\Claudio Volnei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\obj\\",
+      "outputPath": "c:\\Users\\Claudio Volnei\\Documents\\dotnetcore\\ProAgil.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

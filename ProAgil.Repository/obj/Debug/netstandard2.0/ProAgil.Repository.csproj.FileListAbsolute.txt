@@ -10,3 +10,15 @@ C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.Repository\bin\Debug\netsta
 C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CopyComplete
 C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.dll
 C:\Users\Claudio Volnei\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.pdb
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.deps.json
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Repository.pdb
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\bin\Debug\netstandard2.0\ProAgil.Domain.pdb
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csprojAssemblyReference.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CoreCompileInputs.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfoInputs.cache
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.AssemblyInfo.cs
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.csproj.CopyComplete
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.dll
+C:\Users\claudio.silva.IPMMI\Documents\dotnetcore\ProAgil.Repository\obj\Debug\netstandard2.0\ProAgil.Repository.pdb

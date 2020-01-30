@@ -20,7 +20,8 @@
     "ProAgil.WebAPI": {
       "commandName": "Project",
       "launchBrowser": false,
-      "launchUrl": "api/values",
+      "externalUrlConfiguration": true,
+      "launchUrl": "api/evento",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
