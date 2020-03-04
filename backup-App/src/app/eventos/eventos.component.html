@@ -15,7 +15,6 @@
   </div>
 </div>
 
-
 <h3>Filtro: {{filtroLista}} </h3>
 <table class="table table-striped">
   <thead class="thead-light">
@@ -32,14 +31,14 @@
     <th>Data</th>
     <th>Qtd Pessoas</th>
     <th>Lote</th>
-    <th>Options</th>
+    <th colspan="2" >Options</th>
   </tr>
 </thead>
 <tbody *ngIf="eventos && eventos.length">
   <tr *ngFor="let evento of eventosFiltrados">
     <td class="text-center">
       <img *ngIf="mostrarImgem"
-      src="http://localhost:5000/img/{{evento.imagemURL}}" 
+      src="http://localhost:5000/resources/images/{{evento.imagemURL}}?_ts={{dataAtual}}" 
       [style.width.px]="imagemWidth"
       [style.margin.px]="ImagemMargin"> 
     </td>
@@ -67,6 +66,11 @@
         <i class="fa fa-eraser"></i>
       </button>
     </div>
+  </td>
+  <td>
+    <a [routerLink]="['/evento', evento.id, 'edit']" tooltip="Edição Detalhada" class="btn btn-sm btn-warning">
+      <i class="fa fa-edit"></i>
+    </a>
   </td>
 </tr>
 </tbody>
@@ -167,10 +171,19 @@ role="dialog" aria-labelledby="dialog-sizes-name1">
       
       <div class="form-group col-md-9">
         <label>Imagem</label>
-        <input type="text" class="form-control"
-        [ngClass]="{'is-invalid': registerForm.get('imagemURL').errors 
-        && registerForm.get('imagemURL').touched}"
-        formControlName ="imagemURL">
+        <table>
+          <tr>
+            <td>
+              <button class="btn btn-success" (click)="file.click()">
+                Enviar Imagem
+              </button>
+              <input type="file" #file class="form-control"
+              [ngClass]="{'is-invalid': registerForm.get('imagemURL').errors 
+              && registerForm.get('imagemURL').touched}" (change)="onFileChange($event)"
+              formControlName ="imagemURL" style="display: none;">
+            </td>
+          </tr>
+        </table>
         <div *ngIf="registerForm.get('imagemURL').hasError('required') 
         && registerForm.get('imagemURL').touched"
         class="invalid-feedback">

@@ -1,5 +1,7 @@
+using System.Net.Http.Headers;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -7,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProAgil.Domain;
 using ProAgil.Repository;
 using ProAgil.WebAPI.Dtos;
+using System.Linq;
 
 namespace ProAgil.WebAPI.Controllers
 {
@@ -38,6 +41,35 @@ namespace ProAgil.WebAPI.Controllers
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de Dados falhou {ex.Message}");
             }
+        }
+        [HttpPost("upload")]
+        public async Task<IActionResult> Upload()
+        {
+            try
+            {
+                var file = Request.Form.Files[0];
+                var folderName = Path.Combine("Resources", "Images");
+                var pathToSave = Path.Combine(Directory.GetCurrentDirectory(), folderName);
+
+                if(file.Length > 0)
+                {
+                    var filename = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName;
+                    var fullPath = Path.Combine(pathToSave, filename.Replace("\"", " ").Trim());
+
+                    using(var stream = new FileStream(fullPath, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                    }
+                }
+
+                return  Ok();
+            }
+            catch (System.Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Banco de Dados falhou {ex.Message}");
+            }
+
+            //return BadRequest("Erro ao tentar realizar upload");
         }
 
         // GET api/values/Id
@@ -104,8 +136,28 @@ namespace ProAgil.WebAPI.Controllers
         {
             try
             {
+                var idLotes = new List<int>();
+                var idRedesSociais = new List<int>();
+
+                foreach(var item in model.Lotes)
+                    idLotes.Add(item.Id);
+
+                foreach(var item in model.RedeSociais)
+                    idRedesSociais.Add(item.Id);
+
+
                 var evento = await _repo.GetAllEventoAsyncById(EventoId, false);
                 if (evento == null) return NotFound();
+
+                var lotes = evento.Lotes.Where(lote => !idLotes.Contains(lote.Id)).ToList<Lote>();
+                var redesSociais = evento.RedeSociais.Where(rede => !idRedesSociais.Contains(rede.Id)).ToList<RedeSocial>();
+
+                if (lotes.Count > 0)
+                    lotes.ForEach(lote => _repo.Delete(lote));
+
+                if (redesSociais.Count > 0)
+                    redesSociais.ForEach(rede => _repo.Delete(rede));
+
 
                 _mapper.Map(model, evento);
 
